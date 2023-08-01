@@ -17,7 +17,7 @@ const AddTodo = () => {
   return (
     <form
       onSubmit={handleFormSubmit}
-      className="w-2/3 md:w-1/2 flex justify-between items-center px-3 mt-3"
+      className="w-2/3 md:w-1/2 flex justify-between items-center gap-x-2 px-3 mt-3"
     >
       <input
         type="text"

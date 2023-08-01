@@ -4,7 +4,7 @@ import { useContext } from "react";
 const Todo = ({ todo }: { todo: TodoType }) => {
   const todoCtx = useContext(todoContext);
   return (
-    <div className="p-3 flex items-center justify-between">
+    <div className="p-3 flex items-center justify-between gap-x-2">
       <div className="flex items-center gap-x-4">
         <input
           type="checkbox"
