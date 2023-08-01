@@ -24,7 +24,7 @@ const AddTodo = () => {
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
         placeholder="Add Todo"
-        className="outline-none border-none w-2/3 py-1 px-3 rounded-sm"
+        className="outline-none border-none w-2/3 py-1 px-3 rounded-sm text-neutral-600"
       />
       <div className="pr-2">
         <button
